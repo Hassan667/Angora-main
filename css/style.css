@@ -1,0 +1,495 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+}
+header {
+    position: relative;
+}
+.nav-item {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+.carousel-caption2 {
+    margin-bottom: 180px !important;
+}
+.head-font {
+    font-size: 80px !important;
+}
+.bg-1{
+    background-image: url(../images/slideshow-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-2{
+    background-image: url(../images/slideshow-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bg-3{
+    background-image: url(../images/slideshow-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar {
+    border-bottom: 1px white solid;
+    padding-bottom: 20px !important;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+.butt {
+    background-color: white !important;
+    width: 30px !important;
+    border-radius: 50%;
+    height: 30px !important;
+
+}
+.carousel-control-prev2 {
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    border: 1px white solid;
+    width: 50px !important;
+    height: 50px !important;
+}
+.carousel-control-next2 {
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    border: 1px white solid;
+    width: 50px !important;
+    height: 50px !important;
+
+}
+.arrow {
+    color: white;
+    font-size: 20px;
+}
+.nav-link {
+    color: white !important;
+    
+}
+.active {
+    color: crimson !important;
+}
+
+.nav-link:hover {
+    color: crimson !important;
+}
+.head-layout {
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-layout h1 {
+    margin: auto;
+    color: rgba(0, 0, 0, 0.103);
+    font-size: 100px;
+    font-weight: 900;
+}
+.head-layout h2 {
+    position: absolute;
+    top: 0px;
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.line {
+    width: 80px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 47%;
+    transition: transform 1s ;
+}
+.head-layout:hover .line {
+    transform: scale(1.8);
+}
+.para-head {
+    width: 50%;
+    margin: auto;
+    color: #999;
+    word-wrap: break-word;
+}
+.progress{
+    height: 5px;
+}
+.about-range p {
+    font-weight: 600;
+    font-size: 15px;
+}
+.about-para {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 4rem;
+}
+.member {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.member1 {
+    transition: left 1.2s linear;
+    left: -1300px;
+}
+.member2 {
+    transition: left 1s linear;
+    left: -1300px;
+}
+.member3 {
+    right: -500px;
+    transition: right 1s linear;
+}
+.member4 {
+    right: -500px;
+    transition: right 1.2s linear;
+}
+.member img {
+    width: 100%;
+}
+.member h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.navColor {
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    margin: 0px !important;
+    transition: background-color 1s linear , margin 1s linear;
+}
+.navbar-brand {
+    color: white !important;
+}
+.navbar {
+    transition: margin 1s linear !important;
+}
+
+.img-layout {
+    position: absolute;
+    top: 0px;
+    display: none;
+    width: 92%;
+    height: 81%;
+    background-color: rgba(255, 0, 0, 0.425);
+    justify-content: space-evenly;
+    align-items: center;
+    transition: display 1s;
+}
+.img-layout i {
+    color: white;
+    font-size: 16px;    
+}
+.img-layout i:hover {
+    cursor: pointer;
+}
+.member:hover .img-layout{
+    display: flex;
+}
+.img-con img {
+    transition: transform 0.5s ;
+}
+.member:hover img {
+    transform: scale(1.1);
+}
+.img-con {
+    overflow: hidden;
+}
+.member:hover h3 {
+    color: crimson;
+}
+.doyouhave {
+    margin-top: 200px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.butt-div button {
+    background-color: crimson;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+}
+.Q-div {
+    padding-left: 10px;
+}
+.butt-div button:hover {
+    background-color: rgba(220, 20, 60, 0.692);
+}
+.services-div {
+    margin-top: 50px;
+}
+
+.icon-div {
+    font-size: 30px;
+    color: crimson;
+    margin-right: 15px;
+}
+.content h6 {
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 1s;
+}
+.item:hover h6 {
+    color: crimson;
+}
+.item:hover {
+    cursor: pointer;
+}
+.carousel-inner2 {
+    width: 50% !important;
+    margin: auto !important;
+}
+.barsIcon {
+    font-size: 40px !important;
+    display: none;
+    text-decoration: none;
+}
+.barsIcon:active {
+    color: crimson;
+}
+.barsIcon:focus {
+    color: white;
+}
+@media screen and (max-width:768px) and (min-width:600px) {
+    .carousel-inner2 {
+        width: 100% !important;
+    }
+    .item-con {
+        text-align: center;
+    }
+        .barsIcon {
+        display: block;
+    }
+        .barsIcon {
+        display: flex !important;
+        width: 20% !important;
+        margin-left: 200px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .carousel-control-prev2 {
+        top: 500px;
+    }
+    .carousel-control-next2 {
+        top: 450px;
+    }
+}
+@media screen and (max-width:600px) {
+    .carousel-inner2 {
+        width: 100% !important;
+    }
+        .item-con {
+        text-align: center;
+    }
+    .copy-rights {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .barsIcon {
+        display: flex !important;
+        width: 20% !important;
+        margin-left: 200px;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .carousel-control-prev2 {
+        top: 500px;
+    }
+    .carousel-control-next2 {
+        top: 450px;
+    }
+
+}
+.toggle-menu {
+    margin-top: 20px;
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    display: none;
+}
+.icons-toggle {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.icons-toggle:hover {
+    color: crimson;
+}
+
+
+
+.carousel2 {
+    height: 300px !important;
+}
+.carousel-indicators2 {
+    bottom: -50px !important;
+}
+.carousel-indicators2 button {
+    background-color: black !important;
+    margin-top: 0px !important;
+}
+.carousel-item2 {
+    height: 300px !important;
+}
+.carousel-caption2 {
+    color: black !important;
+    top: 220px !important;
+}
+.info h2 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.info-con {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.iconn-div {
+    font-size: 35px;
+    color: crimson;
+    margin-right: 5px;
+}
+
+.content-info h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+a {
+    text-decoration: none;
+}
+.form{
+    padding: 10px;
+}
+.form input {
+    margin-bottom: 10px;
+    outline: none;
+    border: 2px rgba(153, 153, 153, 0.473) solid;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.form textarea {
+    margin-bottom: 10px;
+    outline: none;
+    border: 2px rgba(153, 153, 153, 0.473) solid;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.form input:focus {
+    border: 2px red solid;
+}
+.form textarea:focus {
+    border: 2px red solid;
+}
+.form button {
+    background-color: crimson;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    color: white;
+}
+.form button:hover {
+    background-color: rgba(220, 20, 60, 0.692);
+}
+.content-info:hover h4 {
+    color: crimson;
+}
+.content-info:hover {
+    cursor: pointer;
+}
+footer {
+    background-color: #222;
+    background-image: url(../images/dotted-map.png);
+    overflow: auto;
+}
+.head-logo {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.item-con {
+    color: white;
+}
+.item-con h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.item-con ul li {
+    list-style: none;
+    line-height: 2;
+    color: #999;
+    transition: color 0.5s;
+}
+.item-con ul li:hover {
+    color: crimson;
+    cursor: pointer;
+}
+.item-con p {
+    color: #999;
+}
+.item-con .hover:hover {
+    color: crimson;
+    cursor: pointer;
+} 
+.item-con button {
+    background: none;
+    color: #999;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: #999 1px solid;
+    margin: 5px;
+    transition: color 0.5s , border 0.5s;
+}
+.item-con button:hover {
+    color: crimson;
+    border: 1px crimson solid;
+}
+.final-div {
+    background-color: #1a1a1a;
+    padding: 30px 0px;
+}
+.div-iconns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+}
+.div-iconns i {
+    margin: 10px;
+}
+.copy-rights {
+    display: flex;
+    margin-top: 20px;
+    color: white;
+
+}
+.copy-rights span:hover {
+    color: crimson;
+    cursor: pointer;
+}
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
